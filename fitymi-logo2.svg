@@ -22,9 +22,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="982.87842"
-     inkscape:cy="753.77582"
+     inkscape:zoom="1"
+     inkscape:cx="948.5"
+     inkscape:cy="494.5"
      inkscape:window-width="3440"
      inkscape:window-height="1377"
      inkscape:window-x="-8"
@@ -135,138 +135,169 @@
   </defs>
   <g
      id="g66"
-     transform="translate(-3.550325e-4,8.3472e-4)">
+     transform="translate(-0.15562847,0.03599097)"
+     inkscape:label="logo">
     <use
        fill="#000000"
        xlink:href="#p0"
-       id="use34" />
-    <use
-       fill="#ffffff"
-       xlink:href="#p1"
-       id="use35" />
-    <use
-       fill="#000000"
-       xlink:href="#p2"
-       id="use36" />
-    <use
-       fill="#000000"
-       xlink:href="#p3"
-       id="use37" />
-    <use
-       fill="#000000"
-       xlink:href="#p4"
-       id="use38" />
-    <use
-       fill="#000000"
-       xlink:href="#p5"
-       id="use39" />
-    <use
-       fill="#ffffff"
-       xlink:href="#p6"
-       id="use40" />
+       id="use34"
+       style="display:inline"
+       inkscape:label="outer-ring" />
     <use
        fill="#000000"
        xlink:href="#p7"
-       id="use41" />
-    <use
-       fill="#ffffff"
-       xlink:href="#p8"
-       id="use42" />
-    <use
-       fill="#000000"
-       xlink:href="#p9"
-       id="use43" />
-    <use
-       fill="#000000"
-       xlink:href="#p10"
-       id="use44" />
-    <use
-       fill="#000000"
-       xlink:href="#p11"
-       id="use45" />
-    <use
-       fill="#ffffff"
-       xlink:href="#p12"
-       id="use46" />
-    <use
-       fill="#ffffff"
-       xlink:href="#p13"
-       id="use47" />
-    <use
-       fill="#ffffff"
-       xlink:href="#p14"
-       id="use48" />
-    <use
-       fill="#ffffff"
-       xlink:href="#p15"
-       id="use49" />
-    <use
-       fill="#000000"
-       xlink:href="#p16"
-       id="use50" />
-    <use
-       fill="#000000"
-       xlink:href="#p17"
-       id="use51" />
-    <use
-       fill="#000000"
-       xlink:href="#p18"
-       id="use52" />
-    <use
-       fill="#000000"
-       xlink:href="#p19"
-       id="use53" />
-    <use
-       fill="#000000"
-       xlink:href="#p20"
-       id="use54" />
-    <use
-       fill="#000000"
-       xlink:href="#p21"
-       id="use55" />
-    <use
-       fill="#000000"
-       xlink:href="#p22"
-       id="use56" />
-    <use
-       fill="#000000"
-       xlink:href="#p23"
-       id="use57" />
-    <use
-       fill="#000000"
-       xlink:href="#p24"
-       id="use58" />
-    <use
-       fill="#000000"
-       xlink:href="#p25"
-       id="use59" />
-    <use
-       fill="#000000"
-       xlink:href="#p26"
-       id="use60" />
-    <use
-       fill="#000000"
-       xlink:href="#p27"
-       id="use61" />
-    <use
-       fill="#000000"
-       xlink:href="#p28"
-       id="use62" />
-    <use
-       fill="#000000"
-       xlink:href="#p29"
-       id="use63" />
-    <use
-       fill="#ffffff"
-       xlink:href="#p30"
-       id="use64" />
-    <use
-       fill="#000000"
-       xlink:href="#p31"
-       id="use65" />
-    <use
-       fill="#ffffff"
-       xlink:href="#p32"
-       id="use66" />
+       id="use41"
+       style="display:inline"
+       inkscape:label="inner-ring" />
+    <g
+       id="g69"
+       inkscape:label="fake-it">
+      <use
+         fill="#000000"
+         xlink:href="#p2"
+         id="use36"
+         inkscape:label="e" />
+      <use
+         fill="#000000"
+         xlink:href="#p3"
+         id="use37"
+         inkscape:label="k" />
+      <use
+         fill="#000000"
+         xlink:href="#p4"
+         id="use38"
+         inkscape:label="a" />
+      <use
+         fill="#000000"
+         xlink:href="#p5"
+         id="use39"
+         inkscape:label="i" />
+      <use
+         fill="#000000"
+         xlink:href="#p10"
+         id="use44"
+         inkscape:label="t" />
+      <use
+         fill="#000000"
+         xlink:href="#p11"
+         id="use45"
+         inkscape:label="f" />
+    </g>
+    <g
+       id="g67"
+       inkscape:label="devil-horns">
+      <use
+         fill="#000000"
+         xlink:href="#p9"
+         id="use43"
+         transform="rotate(0.10769752,478.50461,375.48395)" />
+      <use
+         fill="#ffffff"
+         xlink:href="#p12"
+         id="use46"
+         transform="rotate(0.10769752,478.50461,375.48395)" />
+      <use
+         fill="#ffffff"
+         xlink:href="#p13"
+         id="use47"
+         transform="rotate(0.10769752,478.50461,375.48395)" />
+      <use
+         fill="#ffffff"
+         xlink:href="#p14"
+         id="use48"
+         transform="rotate(0.10769752,478.50461,375.48395)" />
+      <use
+         fill="#ffffff"
+         xlink:href="#p15"
+         id="use49"
+         transform="rotate(0.10769752,478.50461,375.48395)" />
+    </g>
+    <g
+       id="g68"
+       inkscape:label="stars">
+      <use
+         fill="#000000"
+         xlink:href="#p16"
+         id="use50"
+         inkscape:label="left-star" />
+      <use
+         fill="#000000"
+         xlink:href="#p17"
+         id="use51"
+         inkscape:label="right-star" />
+    </g>
+    <g
+       id="g70"
+       inkscape:label="til-you-make-it">
+      <use
+         fill="#000000"
+         xlink:href="#p18"
+         id="use52"
+         inkscape:label="t" />
+      <use
+         fill="#000000"
+         xlink:href="#p19"
+         id="use53"
+         inkscape:label="'" />
+      <use
+         fill="#000000"
+         xlink:href="#p20"
+         id="use54"
+         inkscape:label="t" />
+      <use
+         fill="#000000"
+         xlink:href="#p21"
+         id="use55"
+         inkscape:label="i" />
+      <use
+         fill="#000000"
+         xlink:href="#p22"
+         id="use56"
+         inkscape:label="i" />
+      <use
+         fill="#000000"
+         xlink:href="#p23"
+         id="use57"
+         inkscape:label="e" />
+      <use
+         fill="#000000"
+         xlink:href="#p24"
+         id="use58"
+         inkscape:label="l" />
+      <use
+         fill="#000000"
+         xlink:href="#p25"
+         id="use59"
+         inkscape:label="k" />
+      <use
+         fill="#000000"
+         xlink:href="#p26"
+         id="use60"
+         inkscape:label="y" />
+      <use
+         fill="#000000"
+         xlink:href="#p27"
+         id="use61"
+         style="display:inline"
+         inkscape:label="a" />
+      <use
+         fill="#000000"
+         xlink:href="#p28"
+         id="use62"
+         style="display:inline"
+         inkscape:label="o" />
+      <use
+         fill="#000000"
+         xlink:href="#p29"
+         id="use63"
+         style="display:inline"
+         inkscape:label="m" />
+      <use
+         fill="#000000"
+         xlink:href="#p31"
+         id="use65"
+         style="display:inline"
+         inkscape:label="u" />
+    </g>
   </g>
 </svg>
