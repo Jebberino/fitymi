@@ -22,9 +22,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="548.71486"
-     inkscape:cy="533.15851"
+     inkscape:zoom="0.25"
+     inkscape:cx="78"
+     inkscape:cy="102"
      inkscape:window-width="1147"
      inkscape:window-height="1211"
      inkscape:window-x="1944"
@@ -133,6 +133,14 @@
        d="M 581.28 616.85 C 585.67 620.92 588.33 627.01 591.50 632.07 C 589.32 632.88 587.13 633.59 584.89 634.22 C 583.88 628.42 581.42 622.73 581.28 616.85 Z"
        id="p32" />
   </defs>
+  <ellipse
+     style="fill:#ffffff;fill-opacity:1;stroke-width:1.31147"
+     id="path2"
+     ry="316.63309"
+     rx="316.23853"
+     cy="375.71002"
+     cx="478.3967"
+     transform="translate(-0.15562847,0.03599097)" />
   <g
      id="g66"
      transform="translate(-0.15562847,0.03599097)"
@@ -260,7 +268,10 @@
     </g>
     <g
        id="g67"
-       inkscape:label="devil-horns">
+       inkscape:label="devil-horns"
+       onclick="this.setAttribute(&quot;fill&quot;, &quot;green&quot;);&#10; "
+       onmouseover="this.setAttribute(&quot;fill&quot;, &quot;green&quot;);"
+       inkscape:highlight-color="#ff5555">
       <use
          fill="#000000"
          xlink:href="#p9"
