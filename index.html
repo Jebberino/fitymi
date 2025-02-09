@@ -24,15 +24,9 @@
             flex-direction: column;
         }
 
-        #fitymi-logo {
+        img {
             max-width: 70%;
             height: auto;
-            transition: fill 1s ease-in-out; /* Smooth color transition */
-        }
-
-        /* Hover animation for the entire logo - color change */
-        #fitymi-logo:hover {
-            fill: #ff0000; /* Red on hover for the whole logo */
         }
 
         .social-links {
@@ -104,7 +98,7 @@
 </head>
 <body>
     <header>
-        <div id="fitymi-logo-container"></div> <!-- Placeholder for the SVG -->
+        <img src="fitymi-logo2.svg" alt="Fake it 'Til You Make It Logo">
         <div class="social-links">
             <a href="https://www.facebook.com/profile.php?id=61555246169135" target="_blank" aria-label="Facebook">
                 <i class="fab fa-facebook-f"></i>
@@ -131,30 +125,5 @@
     <footer>
         <p>&copy; 2025 Fake it 'til you make it. All rights reserved.</p>
     </footer>
-
-    <script>
-        // Function to fetch the SVG file and insert it into the DOM
-        function loadSVG() {
-            fetch('fitymi-logo2.svg') // Replace with the path to your SVG
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('fitymi-logo-container').innerHTML = data;
-
-                    // Now, you can target elements inside the SVG using JavaScript or CSS
-                    const svgLogo = document.querySelector('#fitymi-logo');
-                    svgLogo.addEventListener('mouseover', () => {
-                        svgLogo.setAttribute('fill', '#ff0000'); // Change fill color to red on hover
-                    });
-
-                    svgLogo.addEventListener('mouseout', () => {
-                        svgLogo.setAttribute('fill', '#ffffff'); // Reset fill color when mouse leaves
-                    });
-                })
-                .catch(error => console.log(error));
-        }
-
-        // Load the SVG when the page loads
-        window.onload = loadSVG;
-    </script>
 </body>
 </html>
