@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fake it 'til you make it - Home</title>
+    <title>Fake it 'til you Make it - Home</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
@@ -94,6 +94,39 @@
             margin-top: 30px;
             font-size: 0.9em;
         }
+
+        /* FadeBounce Animation */
+        @keyframes fadeBounce {
+            0% { 
+                opacity: 0; 
+                transform: translateY(-20px) scale(0.5); 
+            }
+            60% { 
+                opacity: 1; 
+                transform: translateY(0) scale(1.2); 
+            }
+            100% { 
+                opacity: 1; 
+                transform: translateY(0) scale(1); 
+            }
+        }
+
+        /* Pulse Logo Animation */
+        @keyframes pulseLogo {
+            0% {
+                transform: scale(0.99);
+            }
+            50% {
+                transform: scale(1.01);
+            }
+            100% {
+                transform: scale(0.99);
+            }
+        }
+
+        header img {
+            animation: fadeBounce 2.5s ease-in-out, pulseLogo 6s ease-in-out infinite;
+        }
     </style>
 </head>
 <body>
@@ -123,7 +156,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Fake it 'til you make it. All rights reserved.</p>
+        <p>&copy; 2025 Fake it 'til you Make it. All rights reserved.</p>
     </footer>
 </body>
 </html>
