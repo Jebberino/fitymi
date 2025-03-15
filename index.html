@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,36 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fake it 'til you Make it - Home</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            overflow-x: hidden;
+        }
 
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        svg {
+            max-width: 70%;
+            height: auto;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #222;
+            text-decoration: none;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.2);
+            background-color: #555;
+        }
+
+        .social-links i {
+            color: #fff;
+            font-size: 24px;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #111;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+
+        form input, form textarea, form button {
+            width: calc(100% - 20px);
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+        }
+
+        form button {
+            background-color: #444;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+
+        /* FadeBounce Animation */
+        @keyframes fadeBounce {
+            0% { 
+                opacity: 0; 
+                transform: translateY(-20px) scale(0.5); 
+            }
+            60% { 
+                opacity: 1; 
+                transform: translateY(0) scale(1.2); 
+            }
+            100% { 
+                opacity: 1; 
+                transform: translateY(0) scale(1); 
+            }
+        }
+
+        /* Pulse Logo Animation */
+        @keyframes pulseLogo {
+            0% {
+                transform: scale(0.99);
+            }
+            50% {
+                transform: scale(1.03);
+            }
+            100% {
+                transform: scale(0.99);
+            }
+        }
+
+        header svg {
+            animation: fadeBounce 2.5s ease-in-out;
+        }
+
+                #p9 {
+            animation: pulseLogo 6s ease-in-out infinite;
+             transform-origin: center; /* Center the pulse scaling */
+        }
+    </style>
 </head>
-<div id="light1" class="light"></div>
-<div id="lightOverlay1" class="lightOverlay"></div>
-<div id="light2" class="light"></div>
-<div id="lightOverlay2" class="lightOverlay"></div>
-<div id="light3" class="light"></div>
-<div id="lightOverlay3" class="lightOverlay"></div>
-
-<script>
-  const light1 = document.getElementById('light1');
-  const light2 = document.getElementById('light2');
-  const light3 = document.getElementById('light3');
-
-  function updateGradient() {
-    const hue = (Date.now() / 10) % 360;
-
-light1.style.background = `conic-gradient(at 50% 5%, transparent 45%, hsl(${hue}deg 100% 82%) 48%, hsl(${hue}deg 100% 82%) 53%, transparent 56.5%) 50% 5% / 50% 100% no-repeat`;
-light2.style.background = `conic-gradient(at 50% 5%, transparent 45%, hsl(${(hue + 120) % 360}deg 100% 82%) 48%, hsl(${(hue + 120) % 360}deg 100% 82%) 53%, transparent 56.5%) 50% 5% / 50% 100% no-repeat`;
-light3.style.background = `conic-gradient(at 50% 5%, transparent 45%, hsl(${(hue + 240) % 360}deg 100% 82%) 48%, hsl(${(hue + 240) % 360}deg 100% 82%) 53%, transparent 56.5%) 50% 5% / 50% 100% no-repeat`;
-  }
-
-  setInterval(updateGradient, 16);
-</script>
 <body>
     <header>
-
-
         <svg
    version="1.1"
    viewBox="0 0 949 751"
@@ -339,17 +439,8 @@ light3.style.background = `conic-gradient(at 50% 5%, transparent 45%, hsl(${(hue
                 <i class="fab fa-instagram"></i>
             </a>
         </div>
-
-        <br>
-        <br>
-        <div>
-            <a href='https://encoremusicians.com/hire/cover-bands?utm_source=badge&utm_medium=web&utm_campaign=verified_badge&utm_content=dark-medium' target="_parent"><img src='https://encoremusicians.com/img/embeds/badge-dark.svg' alt='Book Fake it ‘Til You Make it on Encore Musicians' style='width: 100px; height: 100px;'/>
-            </a>
-        </div>                
     </header>
-            <div class="crowd">
-            <img src="crowd.png" alt="crowd" />
-            </div>
+
     <section>
         <h2>Contact Us</h2>
         <form action="https://formsubmit.co/fitymiband@gmail.com" method="POST">
@@ -358,11 +449,10 @@ light3.style.background = `conic-gradient(at 50% 5%, transparent 45%, hsl(${(hue
             <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
             <button type="submit">Send</button>
         </form>
+    </section>
+
     <footer>
-        <br>
-        <br>
         <p>&copy; 2025 Fake it 'til you Make it. All rights reserved.</p>
-        <br>
-    </footer></section>
+    </footer>
 </body>
 </html>
